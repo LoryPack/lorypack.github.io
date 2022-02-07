@@ -3,13 +3,18 @@ layout: page
 permalink: /talks/
 title: talks
 description: Selection of talks and seminars
-years: [2021, 2020]
+years: [2022, 2021, 2020]
 nav: true
 ---
 
+<h2 class="year">{{2022}}</h2>
+
+- 2022/02/07: (Online) Seminar on my [arXiv preprint](https://arxiv.org/abs/2112.08217) on Probabilistic Forecasting with Conditional Generative Networks via Scoring Rule Minimization @ Computational Statistics group (prof. Tilmann Gneiting) at the **Heidelberg Institute for Theoretical Studies**, Germany.
+
+
 <h2 class="year">{{2021}}</h2>
 
-- 2021/12/14: Seminar on my my [arXiv preprint](https://arxiv.org/abs/2104.03889) on Generalized Bayesian Likelihood-Free Inference Using Scoring Rules Estimators @ **Università della Svizzera Italiana**, Lugano, Switzerland.
+- 2021/12/14: Seminar on my [arXiv preprint](https://arxiv.org/abs/2104.03889) on Generalized Bayesian Likelihood-Free Inference Using Scoring Rules Estimators @ **Università della Svizzera Italiana**, Lugano, Switzerland.
 
 - 2021/10/08: Seminar on my [arXiv preprint](https://arxiv.org/abs/2012.10903) on Score matched conditional exponential families
 for Likelihood-Free Inference @ [ACIIS seminar series](https://warwick.ac.uk/fac/sci/statistics/news/algorithms-seminars/), **University of Warwick**, Coventry.
