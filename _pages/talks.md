@@ -5,6 +5,7 @@ title: talks
 description: Selection of talks and seminars
 years: [2022, 2021, 2020]
 nav: true
+importance: 2
 ---
 
 <h2 class="year">{{2022}}</h2>

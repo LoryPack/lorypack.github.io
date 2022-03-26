@@ -5,6 +5,7 @@ title: publications
 description:
 years: [2022, 2021, 2020]
 nav: true
+importance: 1
 ---
 
 <div class="publications">
