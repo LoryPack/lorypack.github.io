@@ -10,6 +10,9 @@ importance: 2
 
 <h2 class="year">{{2022}}</h2>
 
+- 2022/06/01: (Online) seminar on my [arXiv preprint](https://arxiv.org/abs/2104.03889) on Generalized Bayesian Likelihood-Free Inference Using Scoring Rules Estimators @ Generalized Bayes Reading Group.
+
+
 - 2022/02/07: (Online) Seminar on my [arXiv preprint](https://arxiv.org/abs/2112.08217) on Probabilistic Forecasting with Conditional Generative Networks via Scoring Rule Minimization @ Computational Statistics group (prof. Tilmann Gneiting) at the **Heidelberg Institute for Theoretical Studies**, Germany.
 
 
