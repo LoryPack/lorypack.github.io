@@ -2,21 +2,43 @@
 ---
 
 @article{pacchiardi2021probabilistic,
-      abbr={arXiv},
-      bibtex_show={true},
-  title = {Probabilistic Forecasting with Conditional Generative Networks via Scoring Rule Minimization},
+  abbr={arXiv},
+  bibtex_show={true},
+  title = {Probabilistic Forecasting with Generative Networks via Scoring Rule Minimization},
   author = {Pacchiardi, Lorenzo and Adewoyin, Rilwan and Dueben, Peter and Dutta, Ritabrata},
-      journal={arXiv preprint arXiv:2112.08217},
-      year={2021},
-      eprint={2112.08217},
-      archivePrefix={arXiv},
+  journal={arXiv preprint arXiv:2112.08217},
+  year={2022},
+  eprint={2112.08217},
+  archivePrefix={arXiv},
   url = {https://arxiv.org/abs/2112.08217},
   html = {https://arxiv.org/abs/2112.08217},
-      primaryClass={stat.ML},
-      abstract={Probabilistic forecasting consists of stating a probability distribution for a future outcome based on past observations. In meteorology, ensembles of physics-based numerical models are run to get such distribution. Usually, performance is evaluated with scoring rules, functions of the forecast distribution and the observed outcome. With some scoring rules, calibration and sharpness of the forecast can be assessed at the same time.
-In deep learning, generative neural networks parametrize distributions on high-dimensional spaces and easily allow sampling by transforming draws from a latent variable. Conditional generative networks additionally constrain the distribution on an input variable. In this manuscript, we perform probabilistic forecasting with conditional generative networks trained to minimize scoring rule values. In contrast to Generative Adversarial Networks (GANs), no discriminator is required and training is stable. We perform experiments on two chaotic models and a global dataset of weather observations; results are satisfactory and better calibrated than what achieved by GANs.},
+  primaryClass={stat.ML},
+  abstract={Generative networks are often trained to minimize a statistical divergence between the reference distribution and the generative one in an adversarial setting. Some works trained instead generative networks to minimize Scoring Rules, functions assessing how well the generative distribution matches each training sample individually. We show how the Scoring Rule formulation easily extends to the so-called prequential (predictive-sequential) score, whose minimization allows performing probabilistic forecasting with generative networks. This objective leads to adversarial-free training, therefore easily avoiding uncertainty underestimation due to mode collapse, which is a common issue in the adversarial setting and undesirable for probabilistic forecasting. We provide consistency guarantees for the minimizer of the prequential score and employ that to perform probabilistic forecasting for two chaotic dynamical models and a benchmark dataset of global weather observations. For this last example, we define scoring rules for spatial data by drawing from the relevant literature, with which we obtain better uncertainty quantification with little hyperparameter tuning compared to adversarial training. },
       selected={true}
 }
+
+
+@article{pacchiardi2022likelihood,
+    abbr={arXiv},
+    bibtex_show={true},
+    title = {Likelihood-Free Inference with Generative Neural Networks via Scoring Rule Minimization},
+    author = {Pacchiardi, Lorenzo and Dutta, Ritabrata},
+    journal={arXiv preprint arXiv:2205.15784},
+    year={2022},
+    eprint={2205.15784},
+    archivePrefix={arXiv},
+    url = {https://arxiv.org/abs/2205.15784},
+    html = {https://arxiv.org/abs/2205.15784},
+    doi = {10.48550/ARXIV.2205.15784},
+    primaryClass={stat.CO},
+    keywords = {Computation (stat.CO), Machine Learning (cs.LG), Methodology (stat.ME), Machine Learning (stat.ML), FOS: Computer and information sciences, FOS: Computer and information sciences},
+    publisher = {arXiv},
+    copyright = {arXiv.org perpetual, non-exclusive license},
+    selected={true},
+    abstract={Bayesian Likelihood-Free Inference methods yield posterior approximations for simulator models with intractable likelihood. Recently, many works trained neural networks to approximate either the intractable likelihood or the posterior directly. Most proposals use normalizing flows, namely neural networks parametrizing invertible maps used to transform samples from an underlying base measure; the probability density of the transformed samples is then accessible and the normalizing flow can be trained via maximum likelihood on simulated parameter-observation pairs. A recent work [Ramesh et al., 2022] approximated instead the posterior with generative networks, which drop the invertibility requirement and are thus a more flexible class of distributions scaling to high-dimensional and structured data. However, generative networks only allow sampling from the parametrized distribution; for this reason, Ramesh et al. [2022] follows the common solution of adversarial training, where the generative network plays a min-max game against a "critic" network. This procedure is unstable and can lead to a learned distribution underestimating the uncertainty - in extreme cases collapsing to a single point. Here, we propose to approximate the posterior with generative networks trained by Scoring Rule minimization, an overlooked adversarial-free method enabling smooth training and better uncertainty quantification. In simulation studies, the Scoring Rule approach yields better performances with shorter training time with respect to the adversarial framework. },
+    code={https://github.com/LoryPack/LFI_gen_networks_Scoring_Rules}
+}
+
 
 
 @article{pacchiardi2021generalized,
@@ -33,7 +55,7 @@ In deep learning, generative neural networks parametrize distributions on high-d
       primaryClass={stat.ME},
       abstract={We propose a framework for Bayesian Likelihood-Free Inference (LFI) based on Generalized Bayesian Inference using scoring rules (SR). SR are used to evaluate probabilistic models given an observation; a proper SR is minimised in expectation when the model corresponds to the true data generating process for the observation. Using a strictly proper SR, for which the above minimum is unique, ensures posterior consistency of our method. As the likelihood function is intractable for LFI, we employ consistent estimators of SR using model simulations in a pseudo-marginal MCMC; we show the target of such chain converges to the exact SR posterior with increasing number of simulations. Furthermore, we note popular LFI techniques like Bayesian Synthetic Likelihood (BSL) and semiparametric BSL can be seen as special cases of our framework using only proper (but not strictly so) SR. We provide empirical results validating our consistency result and show how related approaches do not enjoy this property. Practically, we use the Energy and Kernel Scores, but our general framework sets the stage for extensions with other scoring rules. },
       code={https://github.com/LoryPack/GenBayes_LikelihoodFree_ScoringRules},
-      selected={true}
+      selected={false}
 }
 
 
