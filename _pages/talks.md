@@ -10,6 +10,8 @@ importance: 2
 
 <h2 class="year">{{2022}}</h2>
 
+- 2022/06/15: Invited presentation at the [YoungStatS One World webinar on Approximate Bayesian Inference](https://youngstats.github.io/post/2022/02/08/recent-advances-in-approximate-bayesian-inference/). I presented my [arXiv preprint](https://arxiv.org/abs/2104.03889) on Generalized Bayesian Likelihood-Free Inference Using Scoring Rules Estimators. Video available [here](http://www.youtube.com/watch?v=Ee-qmAIwrxs).
+
 - 2022/06/01: (Online) seminar on my [arXiv preprint](https://arxiv.org/abs/2104.03889) on Generalized Bayesian Likelihood-Free Inference Using Scoring Rules Estimators @ **Generalized Bayes Reading Group**.
 
 
