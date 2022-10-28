@@ -12,6 +12,8 @@ importance: 2
 
 
 
+- 2022/10/28: Invited presentation on using Stochastic Gradient MCMC for sampling from the [Scoring Rule posterior](https://arxiv.org/abs/2104.03889) @ **[Fusion workshop](https://conferences.cirm-math.fr/2635.html) at CIRM (Marseille, France)**. 
+
 - 2022/08/23: Contributed talk on Training Generative Networks via Scoring Rule Minimization (preprints [here](https://arxiv.org/abs/2112.08217) and [here](https://arxiv.org/abs/2205.15784)) @ **CompStat 2022 (Bologna, Italy)**. 
 
 - 2022/07/25: Seminar on my [arXiv preprint](https://arxiv.org/abs/2112.08217) on Probabilistic Forecasting with Generative Networks via Scoring Rule Minimization @ Predictability of weather group (prof. Tim Palmer) at the **University of Oxford**, UK.
