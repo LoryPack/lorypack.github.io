@@ -11,7 +11,7 @@ importance: 2
 <h2 class="year">{{2022}}</h2>
 
 
-- 2022/08/23: Seminar on Training Generative Networks via Scoring Rule Minimization (preprints [here](https://arxiv.org/abs/2112.08217) and [here](https://arxiv.org/abs/2205.15784)) @ **[Computational and Biological Learning Lab](https://www.cbl-cambridge.org/), University of Cambridge** (invited by prof. David Krueger). 
+- 2022/10/23: Seminar on Training Generative Networks via Scoring Rule Minimization (preprints [here](https://arxiv.org/abs/2112.08217) and [here](https://arxiv.org/abs/2205.15784)) @ **[Computational and Biological Learning Lab](https://www.cbl-cambridge.org/), University of Cambridge** (invited by prof. David Krueger). 
 
 
 - 2022/10/28: Invited presentation on Stochastic Gradient MCMC sampling for the [Scoring Rule posterior](https://arxiv.org/abs/2104.03889) @ **[Fusion workshop](https://conferences.cirm-math.fr/2635.html) at CIRM (Marseille, France)**. 
