@@ -11,6 +11,9 @@ importance: 2
 <h2 class="year">{{2022}}</h2>
 
 
+- 2022/12/16: Contributed talk (travel award session) on Likelihood-Free Inference with Generative Neural Networks via Scoring Rule Minimization (preprint [here](https://arxiv.org/abs/2205.15784)) @ **ICSDS 2022 (Florence, Italy)**. 
+
+
 - 2022/11/17: Seminar on Training Generative Networks via Scoring Rule Minimization (preprints [here](https://arxiv.org/abs/2112.08217) and [here](https://arxiv.org/abs/2205.15784)) @ **[Computational and Biological Learning Lab](https://www.cbl-cambridge.org/), University of Cambridge** (invited by prof. David Krueger). 
 
 
