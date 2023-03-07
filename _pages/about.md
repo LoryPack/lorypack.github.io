@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Department of Statistics, University of Oxford
+
+[//]: # (description: <em>Affiliation:</em> Department of Statistics, University of Oxford)
 
 profile:
   align: right
@@ -18,9 +19,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a finishing PhD student in Statistics at the University of Oxford. During my PhD, I mostly worked on inference for generative models, spanning Bayesian simulation-based inference and training methods for generative neural networks. Some of the approaches I developed build on concepts from probabilistic forecasting. My supervisors are Dr. [Ritabrata Dutta](https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/dutta/) (Uni. Warwick) and Prof. [Geoff Nicholls](https://www.stats.ox.ac.uk/all-people/geoff-nicholls/) (Uni. Oxford). I am now exploring the use of Large Language Models for conveying probabilistic information in complex tasks and am broadly interested in novel methods to quantify uncertainty (such as conformal prediction, normalizing flows and diffusion models). 
+I am working on the safety of large language models with [Dr Owain Evans](https://owainevans.github.io/) and consulting on standards for high-risk AI systems for the [European AI Act](https://artificialintelligenceact.eu/) at the [Future of Life Institute](https://owainevans.github.io/). 
+
+During my PhD in Statistics and Machine Learning at Oxford, I mostly worked on inference for generative models, spanning Bayesian simulation-based inference and training methods for generative neural networks. Some of the approaches I developed build on concepts from probabilistic forecasting. My supervisors were Prof. [Ritabrata Dutta](https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/dutta/) (Uni. Warwick) and Prof. [Geoff Nicholls](https://www.stats.ox.ac.uk/all-people/geoff-nicholls/) (Uni. Oxford). I was also interested in conformal prediction, normalizing flows, gradient-based MCMC methods and weather forecasting. 
 
 [//]: # (I have mostly worked on Bayesian inference for likelihood-free models, exploiting deep learning tools and generalized Bayesian inference. )
 [//]: # (More recently, I have become interested in probabilistic forecasting, specifically for the field of weather prediction. )
 
-Prior to my PhD studies, I obtained a Bachelor degree in Physical Engineering from Politecnico di Torino (Italy). Afterwards, I studied towards an MSc in Physics of Complex Systems awarded by Politecnico di Torino and Université Paris-Sud, France. I have carried out my MSc thesis at [LightOn](https://lighton.ai/), a machine learning startup in Paris.
+Prior to my PhD studies, I obtained a Bachelor's degree in Physical Engineering from Politecnico di Torino (Italy). Afterwards, I studied towards an MSc in Physics of Complex Systems awarded by Politecnico di Torino and Université Paris-Sud, France. I have carried out my MSc thesis at [LightOn](https://lighton.ai/), a machine learning startup in Paris.
