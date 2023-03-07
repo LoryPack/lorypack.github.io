@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am working on the safety of large language models with [Dr Owain Evans](https://owainevans.github.io/) and consulting on standards for high-risk AI systems for the [European AI Act](https://artificialintelligenceact.eu/) at the [Future of Life Institute](https://owainevans.github.io/). 
+I work on the safety of large language models with [Dr Owain Evans](https://owainevans.github.io/) and consult on standards for high-risk AI systems for the [European AI Act](https://artificialintelligenceact.eu/) at the [Future of Life Institute](https://owainevans.github.io/). I am broadly interested in technical and policy ways to address the societal impact of AI.
 
 During my PhD in Statistics and Machine Learning at Oxford, I mostly worked on inference for generative models, spanning Bayesian simulation-based inference and training methods for generative neural networks. Some of the approaches I developed build on concepts from probabilistic forecasting. My supervisors were Prof. [Ritabrata Dutta](https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/dutta/) (Uni. Warwick) and Prof. [Geoff Nicholls](https://www.stats.ox.ac.uk/all-people/geoff-nicholls/) (Uni. Oxford). I was also interested in conformal prediction, normalizing flows, gradient-based MCMC methods and weather forecasting. 
 
