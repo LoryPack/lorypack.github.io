@@ -9,11 +9,13 @@ importance: 2
 ---
 
 <h2 class="year">{{2023}}</h2>
+- 2023/07/18: Invited talk on Probabilistic Forecasting with Generative Networks via Scoring Rule Minimization ([preprint here](https://arxiv.org/abs/2112.08217)) @ **[ML for weather forecasting workshop](https://warwick.ac.uk/fac/sci/statistics/news/fsds/) at Warwick University**. 
 
-- 2022/03/16: Invited talk on Stochastic Gradient MCMC sampling for the [Scoring Rule posterior](https://arxiv.org/abs/2104.03889) @ **BayesComp 2023 (Levi, Finland)**. 
+
+- 2023/03/16: Invited talk on Stochastic Gradient MCMC sampling for the [Scoring Rule posterior](https://arxiv.org/abs/2104.03889) @ **[BayesComp 2023](bayescomp2023.com/) (Levi, Finland)**. 
 
 
-- 2022/03/14: Invited talk on Likelihood-Free Inference with Generative Neural Networks via Scoring Rule Minimization (preprint [here](https://arxiv.org/abs/2205.15784)) @ **Bayesian computing without exact likelihoods workshop (Levi, Finland)**. 
+- 2023/03/14: Invited talk on Likelihood-Free Inference with Generative Neural Networks via Scoring Rule Minimization (preprint [here](https://arxiv.org/abs/2205.15784)) @ **Bayesian computing without exact likelihoods workshop (Levi, Finland)**. 
 
 
 <h2 class="year">{{2022}}</h2>
