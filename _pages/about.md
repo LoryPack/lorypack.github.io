@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I will soon join the [Leverhulme Centre for the Future of Intelligence](http://lcfi.ac.uk/) at the University of Cambridge to develop a robust [framework](http://lcfi.ac.uk/projects/kinds-of-intelligence/recog-ai/) for evaluating the capabilities of AI systems, together with [Prof José Hernández-Orallo](http://josephorallo.webs.upv.es/) and [Dr Lucy Cheke](http://lcfi.ac.uk/people/lucy-cheke/).  
+I am a Research Associate at the [Leverhulme Centre for the Future of Intelligence](http://lcfi.ac.uk/) at the University of Cambridge to develop a robust [framework](http://lcfi.ac.uk/projects/kinds-of-intelligence/recog-ai/) for evaluating the capabilities of AI systems, together with [Prof José Hernández-Orallo](http://josephorallo.webs.upv.es/) and [Dr Lucy Cheke](http://lcfi.ac.uk/people/lucy-cheke/).  
 
 I previously worked on evaluating large language models with [Dr Owain Evans](https://owainevans.github.io/) and on technical standards for AI for the [European AI Act](https://artificialintelligenceact.eu/) at the [Future of Life Institute](https://futureoflife.org/). I am deeply interested in AI policy (particularly at the EU level).
 
