@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <meta http-equiv="refresh" content="3; url=http://lorenzopacchiardi.me//" />
+    
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
   Lorenzo  Pacchiardi
 
 
-  | Page not found
+  | Finetuning GPT3
 
 </title>
 <meta name="description" content="Lorenzo Pacchiardi, Research Associate at the Center for the Future of Intelligence, University of Cambridge.
@@ -39,7 +39,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="http://lorenzopacchiardi.me//404.html">
+<link rel="canonical" href="http://lorenzopacchiardi.me//blog/2022/GPT3_finetuning/">
 
 
 <!-- Dark Mode -->
@@ -81,7 +81,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -172,17 +172,47 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
+
+
+
+
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Page not found</h1>
-    <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+    <h1 class="post-title">Finetuning GPT3</h1>
+    <p class="post-meta">November 26, 2022</p>
+    <p class="post-tags">
+      <a href="/blog/2022"> <i class="fas fa-calendar fa-sm"></i> 2022 </a>
+      
+        ·  
+        
+        <a href="/blog/tag/code">
+          <i class="fas fa-hashtag fa-sm"></i> code</a>  
+          
+      
+
+      
+
+    </p>
   </header>
 
-  <article>
-    <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="http://lorenzopacchiardi.me//">here</a>.</p>
+  <article class="post-content">
+    <p>Large Language Models have quite extraordinary performance. They can generate text, translate languages, and even answer questions. 
+However, they are not perfect (fun fact: this last sentence was actually suggested by Github copilot, which is powered by a language model <img class="emoji" title=":laughing:" alt=":laughing:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f606.png" height="20" width="20">). If you have a specific task, you may want to finetune the model on your own dataset.</p>
+
+<p>OpenAI API allows you to do that. You can finetune GPT3 and then using it as you wish. In the notebook below, I show how to 
+finetune GPT3 to predict the title of an arxiv paper from its abstract. Hope you enjoy it!</p>
+
+<p><a href="https://colab.research.google.com/gist/LoryPack/c53b41e7041f77ac450f7394455d2d2e#scrollTo=GwQeLZWFGs7_" target="_blank" rel="noopener noreferrer"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a></p>
+
+<p>One disclaimer: to use the OpenAI API you need to register and using it has a monetary cost.</p>
+
 
   </article>
+
+  
 
 </div>
 
