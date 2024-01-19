@@ -3,7 +3,6 @@ layout: post
 title: Finetuning GPT3
 date: 2022-11-26 15:09:00
 description: Using the OpenAI API to finetune GPT3 on a custom dataset
-tags: code
 ---
 
 Large Language Models have quite extraordinary performance. They can generate text, translate languages, and even answer questions. 
