@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2021-02-11 15:59:00-0400
 inline: true
-related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Our methodological [paper](https://arxiv.org/abs/2006.16059) on designing an optimal lockdown considering an epidemiological model has been accepted for publication by PLOS Computational Biology! :tada: :smile:
+

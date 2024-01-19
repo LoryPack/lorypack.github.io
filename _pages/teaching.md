@@ -2,11 +2,20 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: My past teaching activity at the University of Oxford 
 nav: true
-nav_order: 6
+importance: 3
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+### Academic year 20/21
 
-Organize your courses by years, topics, or universities, however you like!
+
+- Tutor for Probability and Statistics (1st and 2nd year courses) at Somerville College, Oxford
+- Tutor for Statistics (2nd year) at Magdalen College, Oxford
+- Teaching Assistant for "Statistical Machine Learning" at the Department of Statistics, Oxford
+
+### Academic year 19/20
+
+- Tutor for Statistics (1st and 2nd year courses) at Magdalen College, Oxford
+- Teaching Assistant for Probability and Statistics (1st and 2nd year) at Corpus Christi College, Oxford 
+- Class tutor for "Algorithmic Foundations of Learning" at the Department of Statistics, Oxford 
