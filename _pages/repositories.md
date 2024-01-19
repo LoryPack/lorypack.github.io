@@ -4,7 +4,7 @@ permalink: /resources/
 title: resources
 nav: true
 nav_order: 4
-horizontal: false
+horizontal: true
 ---
 
 ## Github repositories
@@ -81,7 +81,7 @@ horizontal: false
     <!-- Generate cards for each project -->
     {% if page.horizontal %}
       <div class="container">
-        <div class="row row-cols-1">
+        <div class="row row-cols-2">
         {% for project in sorted_projects %}
           {% include projects_horizontal.liquid %}
         {% endfor %}
