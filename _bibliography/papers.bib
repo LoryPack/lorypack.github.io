@@ -38,22 +38,21 @@
 
 
 @article{pacchiardi2021probabilistic,
-  abbr={arXiv},
+  abbr={JMLR},
   bibtex_show={true},
-  title = {Probabilistic Forecasting with Generative Networks via Scoring Rule Minimization},
-  author = {Pacchiardi, Lorenzo and Adewoyin, Rilwan and Dueben, Peter and Dutta, Ritabrata},
-  journal={arXiv preprint arXiv:2112.08217},
-  year={2022},
-  eprint={2112.08217},
-  archivePrefix={arXiv},
-  url = {https://arxiv.org/abs/2112.08217},
-  html = {https://arxiv.org/abs/2112.08217},
-  primaryClass={stat.ML},
-  abstract={Generative networks are often trained to minimize a statistical divergence between the reference distribution and the generative one in an adversarial setting. Some works trained instead generative networks to minimize Scoring Rules, functions assessing how well the generative distribution matches each training sample individually. We show how the Scoring Rule formulation easily extends to the so-called prequential (predictive-sequential) score, whose minimization allows performing probabilistic forecasting with generative networks. This objective leads to adversarial-free training, therefore easily avoiding uncertainty underestimation due to mode collapse, which is a common issue in the adversarial setting and undesirable for probabilistic forecasting. We provide consistency guarantees for the minimizer of the prequential score and employ that to perform probabilistic forecasting for two chaotic dynamical models and a benchmark dataset of global weather observations. For this last example, we define scoring rules for spatial data by drawing from the relevant literature, with which we obtain better uncertainty quantification with little hyperparameter tuning compared to adversarial training. },
-  selected={true},
+ 	author = {Pacchiardi, Lorenzo and Adewoyin, Rilwan and Dueben, Peter and Dutta, Ritabrata},
+	title = {Probabilistic Forecasting with Generative Networks via Scoring Rule Minimization},
+	journal = {Journal of Machine Learning Research},
+	year    = {2024},
+	volume  = {25},
+	number  = {45},
+	pages   = {1-64},
+	abstract={Probabilistic forecasting relies on past observations to provide a probability distribution for a future outcome, which is often evaluated against the realization using a scoring rule. Here, we perform probabilistic forecasting with generative neural networks, which parametrize distributions on high-dimensional spaces by transforming draws from a latent variable. Generative networks are typically trained in an adversarial framework. In contrast, we propose to train generative networks to minimize a predictive-sequential (or prequential) scoring rule on a recorded temporal sequence of the phenomenon of interest, which is appealing as it corresponds to the way forecasting systems are routinely evaluated. Adversarial-free minimization is possible for some scoring rules; hence, our framework avoids the cumbersome hyperparameter tuning and uncertainty underestimation due to unstable adversarial training, thus unlocking reliable use of generative networks in probabilistic forecasting. Further, we prove consistency of the minimizer of our objective with dependent data, while adversarial training assumes independence. We perform simulation studies on two chaotic dynamical models and a benchmark data set of global weather observations; for this last example, we define scoring rules for spatial data by drawing from the relevant literature. Our method outperforms state-of-the-art adversarial approaches, especially in probabilistic calibration, while requiring less hyperparameter tuning.},
+	html     = {https://jmlr.org/papers/v25/23-0038.html},
+	url     = {https://jmlr.org/papers/v25/23-0038.html},
   code={https://github.com/LoryPack/GenerativeNetworksScoringRulesProbabilisticForecasting}
+  selected={true}
 }
-
 
 @article{pacchiardi2021generalized,
       abbr={arXiv},
