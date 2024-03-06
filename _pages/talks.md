@@ -8,6 +8,12 @@ nav: true
 importance: 2
 ---
 
+<h2 class="year">{{2024}}</h2>
+- 2024/03/06: Talk on our "[lie detection in black-box LLMs](https://arxiv.org/abs/2309.15840)" paper @ **[Cambridge AI Safety Hub](https://www.cambridgeaisafety.org/)**.
+
+- 2024/03/05: Talk on our "[lie detection in black-box LLMs](https://arxiv.org/abs/2309.15840)" paper @ **[Computer Security Seminar](https://www.cl.cam.ac.uk/research/security/seminars/), Department of Computer Science, University of Cambridge**. Recording [here](https://www.cl.cam.ac.uk/research/security/seminars/archive/video/2024-03-05-t212224.html).
+
+
 <h2 class="year">{{2023}}</h2>
 - 2023/07/18: Invited talk on Probabilistic Forecasting with Generative Networks via Scoring Rule Minimization ([preprint here](https://arxiv.org/abs/2112.08217)) @ **[ML for weather forecasting workshop](https://warwick.ac.uk/fac/sci/statistics/news/fsds/) at Warwick University**. 
 
