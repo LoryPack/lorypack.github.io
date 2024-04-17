@@ -48,7 +48,7 @@ horizontal: true
 </div>
 {% endif %}
 
-## Other links
+## Other things I created
 
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
