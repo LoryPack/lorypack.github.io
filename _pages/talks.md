@@ -9,6 +9,7 @@ importance: 2
 ---
 
 <h2 class="year">{{2024}}</h2>
+
 - 2024/03/06: Talk on our "[lie detection in black-box LLMs](https://arxiv.org/abs/2309.15840)" paper @ [Foundation Models Reading Group](https://github.com/alan-turing-institute/foundation-models-reading-group), **Alan Turing Institute (London)**.
 
 - 2024/03/06: Talk on our "[lie detection in black-box LLMs](https://arxiv.org/abs/2309.15840)" paper @ **[Cambridge AI Safety Hub](https://www.cambridgeaisafety.org/)**.
