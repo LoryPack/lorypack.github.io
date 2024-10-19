@@ -3,5 +3,7 @@ github_users:
 github_repos:
   - LoryPack/LLM-LieDetector
   - eth-cscs/abcpy
+  - LoryPack/ReferenceInstancesPredictability
+  - Kinds-of-Intelligence-CFI/KindsOfReasoning
   - LoryPack/GenerativeNetworksScoringRulesProbabilisticForecasting
   - LoryPack/BPMF
