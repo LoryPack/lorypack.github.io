@@ -98,3 +98,8 @@ horizontal: true
   {% endif %}
 
 </div>
+
+## Non-academic publications
+
+- I co-authored an [op-ed](https://oecd.ai/en/wonk/prohibitions-on-manipulation-and-persuasion-eu-ai-act) on the [OECD.AI](http://oecd.ai/) policy website about how an exemption for "therapeutic purposes" in the EU AI Act could serve as a loophole
+

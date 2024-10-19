@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: teaching
 description: My past teaching activity at the University of Oxford 
-nav: true
+nav: false
 importance: 3
 ---
 
