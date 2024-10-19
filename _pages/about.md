@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 
 *Research Associate, University of Cambridge*
 
-I am a Research Associate at the [Leverhulme Centre for the Future of Intelligence](http://lcfi.ac.uk/) at the University of Cambridge, where I work on [predictability](https://arxiv.org/abs/2310.06167) and [cognitive-oriented evaluation](https://www.lcfi.ac.uk/news-events/blog/post/cognitive-psychology-for-ai-evaluation) of AI systems, together with [Prof José Hernández-Orallo](http://josephorallo.webs.upv.es/) and [Dr Lucy Cheke](http://lcfi.ac.uk/people/lucy-cheke/).  
+I am a Research Associate at the [Leverhulme Centre for the Future of Intelligence](http://lcfi.ac.uk/) at the University of Cambridge. I lead a research project (funded by [Open Philanthropy](https://www.openphilanthropy.org/)) on developing a benchmark for measuring the ability of LLMs to perform data science tasks. I am more broadly interested in  [predictability](https://arxiv.org/abs/2310.06167) and [cognitive-oriented evaluation](https://www.lcfi.ac.uk/news-events/blog/post/cognitive-psychology-for-ai-evaluation) of AI systems, and I closely collaborate with [Prof José Hernández-Orallo](http://josephorallo.webs.upv.es/) and [Dr Lucy Cheke](http://lcfi.ac.uk/people/lucy-cheke/).  
 
 I previously worked on [detecting lying in large language models](https://arxiv.org/abs/2309.15840) with [Dr Owain Evans](https://owainevans.github.io/) and on [technical standards for AI](https://artificialintelligenceact.eu/standard-setting/) for the [EU AI Act](https://artificialintelligenceact.eu/) at the [Future of Life Institute](https://futureoflife.org/). I am deeply interested in AI policy (particularly at the EU level).
 
