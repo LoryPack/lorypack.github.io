@@ -1,20 +1,42 @@
 ---
 ---
 
-@misc{pacchiardi2024100instancesneedpredicting,
+
+@article{pacchiardi2024leavingbarndooropen,
+    abbr={arXiv},
+    bibtex_show={true},
+    selected={true},
+      title={Leaving the barn door open for {C}lever {H}ans: Simple features predict {LLM} benchmark answers},
+      author={Lorenzo Pacchiardi and Marko Tesic and Lucy G. Cheke and Jos\'{e} Hern\'{a}ndez-Orallo},
+      year={2024},
+      eprint={2410.11672},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      journal={arXiv preprint arXiv:2410.11672},
+      url={https://arxiv.org/abs/2410.11672},
+      html={https://arxiv.org/abs/2410.11672},
+      abstract={The integrity of AI benchmarks is fundamental to accurately assess the capabilities of AI systems. The internal validity of these benchmarks - i.e., making sure they are free from confounding factors - is crucial for ensuring that they are measuring what they are designed to measure. In this paper, we explore a key issue related to internal validity: the possibility that AI systems can solve benchmarks in unintended ways, bypassing the capability being tested. This phenomenon, widely known in human and animal experiments, is often referred to as the 'Clever Hans' effect, where tasks are solved using spurious cues, often involving much simpler processes than those putatively assessed. Previous research suggests that language models can exhibit this behaviour as well. In several older Natural Language Processing (NLP) benchmarks, individual n-grams like "not" have been found to be highly predictive of the correct labels, and supervised NLP models have been shown to exploit these patterns. In this work, we investigate the extent to which simple n-grams extracted from benchmark instances can be combined to predict labels in modern multiple-choice benchmarks designed for LLMs, and whether LLMs might be using such n-gram patterns to solve these benchmarks. We show how simple classifiers trained on these n-grams can achieve high scores on several benchmarks, despite lacking the capabilities being tested. Additionally, we provide evidence that modern LLMs might be using these superficial patterns to solve benchmarks. This suggests that the internal validity of these benchmarks may be compromised and caution should be exercised when interpreting LLM performance results on them.},
+      code={https://github.com/Kinds-of-Intelligence-CFI/benchmark-ground-truth-predictability},
+}
+
+@article{pacchiardi2024100instancesneedpredicting,
     abbr={arXiv},
     bibtex_show={true},
     selected={true},
       title={100 instances is all you need: predicting the success of a new {LLM} on unseen data by testing on a few instances},
-      author={Lorenzo Pacchiardi and Lucy G. Cheke and José Hernández-Orallo},
+      author={Lorenzo Pacchiardi and Lucy G. Cheke and Jos\'{e} Hern\'{a}ndez-Orallo},
       year={2024},
       eprint={2409.03563},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
+      journal={arXiv preprint arXiv:2409.03563},
       url={https://arxiv.org/abs/2409.03563},
+      html={https://arxiv.org/abs/2409.03563},
+      code={https://github.com/LoryPack/ReferenceInstancesPredictability},
+      abstract={Predicting the performance of LLMs on individual task instances is essential to ensure their reliability in high-stakes applications. To do so, a possibility is to evaluate the considered LLM on a set of task instances and train an assessor to predict its performance based on features of the instances. However, this approach requires evaluating each new LLM on a sufficiently large set of task instances to train an assessor specific to it. In this work, we leverage the evaluation results of previously tested LLMs to reduce the number of evaluations required to predict the performance of a new LLM. In practice, we propose to test the new LLM on a small set of reference instances and train a generic assessor which predicts the performance of the LLM on an instance based on the performance of the former on the reference set and features of the instance of interest. We conduct empirical studies on HELM-Lite and KindsOfReasoning, a collection of existing reasoning datasets that we introduce, where we evaluate all instruction-fine-tuned OpenAI models until the January 2024 version of GPT4. When predicting performance on instances with the same distribution as those used to train the generic assessor, we find this achieves performance comparable to the LLM-specific assessors trained on the full set of instances. Additionally, we find that randomly selecting the reference instances performs as well as some advanced selection methods we tested. For out of distribution, however, no clear winner emerges and the overall performance is worse, suggesting that the inherent predictability of LLMs is low.},
 }
 
-@misc{pacchiardi2023catch,
+@article{pacchiardi2023catch,
     abbr={ICLR 2024},
     bibtex_show={true},
     title={How to Catch an {AI} Liar: Lie Detection in Black-Box {LLM}s by Asking Unrelated Questions},
@@ -82,7 +104,9 @@ abstract = {Generalized Bayesian inference replaces the likelihood in the Bayesi
 keywords = {generalized Bayes, likelihood-free inference, pseudo-marginal MCMC, scoring rules},
 year = {2024},
 doi = {10.1214/24-EJS2283},
-URL = {https://doi.org/10.1214/24-EJS2283}
+URL = {https://doi.org/10.1214/24-EJS2283},
+html = {https://doi.org/10.1214/24-EJS2283},
+code={https://github.com/Shermjj/GenBayes_LikelihoodFree_ScoringRules_SGMCMC},
 }
 
 @article{pacchiardi2020score,
