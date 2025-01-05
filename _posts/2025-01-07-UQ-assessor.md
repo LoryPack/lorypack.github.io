@@ -119,7 +119,7 @@ Model-agnostic rejectors operate on the assumption that a model is likely to fai
 
 I am unaware of any work applying this idea to LLMs; I believe the main reason is that LLMs' training datasets are vast and often unknown, so it is basically impossible to train a rejector using information on that. Even more importantly, as LLMs can tackle a wide range of tasks, it would not make sense to train a rejector on the pre-training dataset.
 
-Therefore, the practical usefulness of this approach may be limited to cases where LLMs undergo fine-tuning for specific use cases in a niche domains. Even here, however, it may be better to rely on assessors or uncertainty quantification methods which, by exploiting information on the model, are likely to perform better. In fact, the main advantage of model-agnostic rejectors is that they can be applied to any model trained on a specific dataset; however, it is rare to have multiple LLMs trained (or even finetuned) on the same dataset, due to their large cost.
+Therefore, the practical usefulness of this approach may be limited to cases where LLMs undergo fine-tuning for specific use cases in niche domains. Even here, however, it may be better to rely on assessors or uncertainty quantification methods which, by exploiting information on the model, are likely to perform better. In fact, the main advantage of model-agnostic rejectors is that they can be applied to any model trained on a specific dataset; however, it is rare to have multiple LLMs trained (or even finetuned) on the same dataset, due to their large cost.
 
 
 
@@ -147,8 +147,9 @@ Rather than focusing on quantifying uncertainty in LLM-generated answers, this a
 ## Reward models
 
 Reward models can be considered as somehow related to uncertainty quantification: they are typically trained (for instance from human feedback) to evaluate a completion in terms of a validity specification. However, this validity specification usually includes absence of toxic content or alignment with user intentions, rather than correctness of an answer, even if the latter could plausibly be used.
+Then, they are used as the reward function to finetune LLMs via RL. However, they can also be independently used to evaluate completions produced by a model; some works also show that they can be used to evaluate partial completions, thus stopping generation and then restarting it if a generation is likely to be unsuccessful wrt the final specification <d-cite key="nath2024goal"></d-cite>. 
 
-Then, they are used as the reward function to finetune LLMs via RL. However, they can also be independently used to evaluate completions produced by a model; some works also show that they can be used to evaluate partial completions, thus stopping generation and then restarting it if a generation is likely to be unsuccessfull wrt the final specification <d-cite key="nath2024goal"></d-cite>. However they are generally not specific to a single LLM→it mostly relies on generisc features of the output that can be used to understand agreement with the considered validity specification. In contrast, assessors and uncertainty quantification approaches are
+However, in contrast to intrinsic uncertainty quantification and assessors, reward models are generally not specific to a single LLM. As such, they rely on generic features of the output that can be used to understand agreement with the considered validity specification. In contrast, assessors and uncertainty quantification approaches are trained considering a specific model or a set of models and explicitly or implicitly rely on their features.
 
 ## How humans interpret LLM uncertainty
 
