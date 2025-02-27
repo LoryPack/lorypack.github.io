@@ -101,5 +101,5 @@ horizontal: true
 
 ## Non-academic publications
 
-- I co-authored an [op-ed](https://oecd.ai/en/wonk/prohibitions-on-manipulation-and-persuasion-eu-ai-act) on the [OECD.AI](http://oecd.ai/) policy website about how an exemption for "therapeutic purposes" in the EU AI Act could serve as a loophole
-
+- I co-authored an [op-ed](https://oecd.ai/en/wonk/prohibitions-on-manipulation-and-persuasion-eu-ai-act) on the [OECD.AI](http://oecd.ai/) policy website about how an exemption for "therapeutic purposes" in the EU AI Act could serve as a loophole.
+- I co-authored a [white paper](https://www.oxfordmartin.ox.ac.uk/publications/who-should-develop-which-ai-evaluations) with the Oxford Martin School of Governance discussing what actors are best placed to develop different kinds of AI evaluation tools.
