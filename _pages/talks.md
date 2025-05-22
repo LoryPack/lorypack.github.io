@@ -3,10 +3,14 @@ layout: page
 permalink: /talks/
 title: talks
 description: Selection of talks and seminars
-years: [2022, 2021, 2020]
+years: [2025, 2024, 2023, 2022, 2021, 2020]
 nav: true
 importance: 2
 ---
+
+<h2 class="year">{{2025}}</h2>
+
+- 2025/04/09: Seminar on my recent work ([1](https://ai-evaluation-paradigms.github.io/), [2](https://predictaboard.github.io/), [3](https://arxiv.org/abs/2503.06378)) @ [Laboratory of Data Engineering (LADE)](https://www.areasciencepark.it/en/research-infrastructures/data-engineering-lade/), **AREA science park, Trieste (Italy)**.
 
 <h2 class="year">{{2024}}</h2>
 
