@@ -10,7 +10,11 @@ importance: 2
 
 <h2 class="year">{{2025}}</h2>
 
-- 2025/04/09: Seminar on my recent work ([1](https://ai-evaluation-paradigms.github.io/), [2](https://predictaboard.github.io/), [3](https://arxiv.org/abs/2503.06378)) @ [Laboratory of Data Engineering (LADE)](https://www.areasciencepark.it/en/research-infrastructures/data-engineering-lade/), **AREA science park, Trieste (Italy)**.
+- 2025/05/22: Keynote Talk "[AI and scientific research](https://media.upv.es/#/portal/video/e982d490-4524-11f0-a5d3-69c01510d5bb)" @ Yearly meeting of Doctoral Students, **Universitat Politècnica de València (Spain)**
+
+- 2025/05/21: Seminar "Evaluating the Present and Future of Data Science Automation" @ School of Informatics, **Universitat Politècnica de València (Spain)**.
+
+- 2025/04/09: Seminar on my recent works ([1](https://ai-evaluation-paradigms.github.io/), [2](https://predictaboard.github.io/), [3](https://arxiv.org/abs/2503.06378)) @ [Laboratory of Data Engineering (LADE)](https://www.areasciencepark.it/en/research-infrastructures/data-engineering-lade/), **AREA science park, Trieste (Italy)**.
 
 <h2 class="year">{{2024}}</h2>
 
