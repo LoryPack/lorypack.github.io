@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Neural LFI
-description: List of papers on neural likelihood-free inference
-img: 
-redirect: https://neurallikelihoodfreeinference.github.io/
-importance: 3
+title: Self-Citation Scholar
+description: A small website computing self-citations using the semantic scholar API
+img:
+redirect: https://self-citation-scholar.lovable.app/
+importance: 1
 category: work
 ---
