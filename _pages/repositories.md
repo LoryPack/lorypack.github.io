@@ -6,7 +6,7 @@ nav: true
 nav_order: 4
 horizontal: true
 ---
-## Other things I created
+## Things I created
 
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
