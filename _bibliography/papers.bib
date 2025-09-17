@@ -1,5 +1,21 @@
 ---
 ---
+@article{cencerrado2025noanswer,
+    abbr          = {arXiv},
+    bibtex_show   = {true},
+    selected      = {true},
+    title         = {{No Answer Needed: Predicting LLM Answer Accuracy from Question-Only Linear Probes}},
+    author        = {Iván Vicente Moreno Cencerrado and Arnau Padrés Masdemont and Anton Gonzalvez Hawthorne and David Demitri Africa and Lorenzo Pacchiardi},
+    year          = {2025},
+    eprint        = {2509.10625},
+    archivePrefix = {arXiv},
+    primaryClass  = {cs.CL},
+    journal       = {arXiv preprint arXiv:2509.10625},
+    url           = {https://github.com/ivanvmoreno/correctness-model-internals},
+    html          = {https://github.com/ivanvmoreno/correctness-model-internals},
+	abstract 	  = {Do large language models (LLMs) anticipate when they will answer correctly? To study this, we extract activations after a question is read but before any tokens are generated, and train linear probes to predict whether the model's forthcoming answer will be correct. Across three open-source model families ranging from 7 to 70 billion parameters, projections on this "in-advance correctness direction" trained on generic trivia questions predict success in distribution and on diverse out-of-distribution knowledge datasets, outperforming black-box baselines and verbalised predicted confidence. Predictive power saturates in intermediate layers, suggesting that self-assessment emerges mid-computation. Notably, generalisation falters on questions requiring mathematical reasoning. Moreover, for models responding "I don't know", doing so strongly correlates with the probe score, indicating that the same direction also captures confidence. By complementing previous results on truthfulness and other behaviours obtained with probes and sparse auto-encoders, our work contributes essential findings to elucidate LLM internals.}
+}
+
 @article{testini2025measuringdatascienceautomation,
     abbr          = {arXiv},
     bibtex_show   = {true},
@@ -151,7 +167,7 @@
 	html     = {https://jmlr.org/papers/v25/23-0038.html},
 	url     = {https://jmlr.org/papers/v25/23-0038.html},
   code={https://github.com/LoryPack/GenerativeNetworksScoringRulesProbabilisticForecasting},
-  selected={true}
+  selected={false}
 }
 
 
