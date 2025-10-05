@@ -3,3 +3,5 @@ github_users:
 github_repos:
   - LoryPack/LLM-LieDetector
   - eth-cscs/abcpy
+  - LoryPack/self-citation-scholar
+  - LoryPack/gantt
