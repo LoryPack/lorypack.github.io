@@ -104,3 +104,4 @@ horizontal: true
 
 - I co-authored an [op-ed](https://oecd.ai/en/wonk/prohibitions-on-manipulation-and-persuasion-eu-ai-act) on the [OECD.AI](http://oecd.ai/) policy website about how an exemption for "therapeutic purposes" in the EU AI Act could serve as a loophole.
 - I co-authored a [white paper](https://www.oxfordmartin.ox.ac.uk/publications/who-should-develop-which-ai-evaluations) with the Oxford Martin School of Governance discussing what actors are best placed to develop different kinds of AI evaluation tools.
+- I co-authored two reports with the European Commission's Joint Research Centre, related to General-Purpose AI Models under the EU AI Act: the [first](https://publications.jrc.ec.europa.eu/repository/handle/JRC143257) is on how to categorise modified General-Purpose AI Models as new models, the [second](https://publications.jrc.ec.europa.eu/repository/handle/JRC143256) is about categorising a model as General-Purpose AI or not.
