@@ -14,9 +14,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-*Research Associate, University of Cambridge*
+*Assistant Research Professor, University of Cambridge*
 
-I am a Research Associate at the [Leverhulme Centre for the Future of Intelligence](http://lcfi.ac.uk/) at the University of Cambridge. I lead a research project (funded by [Open Philanthropy](https://www.openphilanthropy.org/)) on developing a benchmark for measuring the ability of LLMs to perform data science tasks. I am more broadly interested in [AI evaluation](https://arxiv.org/abs/2502.15620), particularly in [predictability](https://arxiv.org/abs/2502.14445) and [cognitive evaluation](https://arxiv.org/abs/2503.06378), and I closely collaborate with [Prof José Hernández-Orallo](http://josephorallo.webs.upv.es/) and [Prof Lucy Cheke](http://lcfi.ac.uk/people/lucy-cheke/). I contribute to the [AI evaluation newsletter](https://aievaluation.substack.com/) and advise [RAND](https://www.rand.org/) on AI evaluation.
+I am an Assistant Research Professor at the [Leverhulme Centre for the Future of Intelligence](http://lcfi.ac.uk/) at the University of Cambridge. I lead a research project (funded by [Open Philanthropy](https://www.openphilanthropy.org/)) on developing a benchmark for measuring the ability of LLMs to perform data science tasks. I am more broadly interested in [AI evaluation](https://arxiv.org/abs/2502.15620), particularly in [predictability](https://arxiv.org/abs/2502.14445) and [cognitive evaluation](https://arxiv.org/abs/2503.06378), and I closely collaborate with [Prof José Hernández-Orallo](http://josephorallo.webs.upv.es/) and [Prof Lucy Cheke](http://lcfi.ac.uk/people/lucy-cheke/). I contribute to the [AI evaluation newsletter](https://aievaluation.substack.com/) and advise [RAND](https://www.rand.org/) on AI evaluation.
 
 I am deeply familiar with EU AI policy (having been involved in several initiatives), and am one of the co-founders of the Italian AI policy think tank [CePTE](https://www.cepte.it/). I also collaborate with [The Unjournal](https://www.unjournal.org/) to make impactful research more rigorous, and I co-founded [AcademicJobsItaly.com](https://academicjobsitaly.com/) to make the Italian academic job market more accessible.
 
