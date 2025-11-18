@@ -10,7 +10,7 @@ importance: 2
 
 <h2 class="year">{{2025}}</h2>
 
-- 2025/11/18: Seminar on [PredictaBoard](https://predictaboard.github.io/) @ [**BlueDot's evals reading group](https://young-pomelo-9d4.notion.site/BlueDot-Evals-Reading-Group-248d6cc32972806588d7dfedefefc1bc).
+- 2025/11/18: Seminar on [PredictaBoard](https://predictaboard.github.io/) @ [**BlueDot's evals reading group**](https://young-pomelo-9d4.notion.site/BlueDot-Evals-Reading-Group-248d6cc32972806588d7dfedefefc1bc).
 
 - 2025/10/14: Introductory talk on AI evaluation [paradigms](https://ai-evaluation-paradigms.github.io/) and the [ADeLe framework](https://kinds-of-intelligence-cfi.github.io/ADELE/) @ [Effective Altruism Cambridge](https://www.eacambridge.org/), **University of Cambridge**
 
