@@ -10,6 +10,10 @@ importance: 2
 
 <h2 class="year">{{2025}}</h2>
 
+- 2025/11/18: Seminar on [PredictaBoard](https://predictaboard.github.io/) @ [**BlueDot's evals reading group**](https://young-pomelo-9d4.notion.site/BlueDot-Evals-Reading-Group-248d6cc32972806588d7dfedefefc1bc).
+
+- 2025/10/14: Introductory talk on AI evaluation [paradigms](https://ai-evaluation-paradigms.github.io/) and the [ADeLe framework](https://kinds-of-intelligence-cfi.github.io/ADELE/) @ [Effective Altruism Cambridge](https://www.eacambridge.org/), **University of Cambridge**
+
 - 2025/05/22: Keynote Talk "[AI and scientific research](https://media.upv.es/#/portal/video/e982d490-4524-11f0-a5d3-69c01510d5bb)" @ Yearly meeting of Doctoral Students, **Universitat Politècnica de València (Spain)**
 
 - 2025/05/21: Seminar "Evaluating the Present and Future of Data Science Automation" @ School of Informatics, **Universitat Politècnica de València (Spain)**.
