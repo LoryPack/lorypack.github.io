@@ -18,6 +18,40 @@
       abstract={Frontier AI is becoming critical societal infrastructure, but outsiders lack reliable ways to judge whether leading developers' safety and security claims are accurate and whether their practices meet relevant standards. Compared to other social and technological systems we rely on daily such as consumer products, corporate financial statements, and food supply chains, AI is subject to less rigorous third-party scrutiny along several dimensions. Ambiguity about whether AI systems are trustworthy can discourage deployment in some contexts where the technology could be beneficial, and make it more likely when it's dangerous. Public transparency alone cannot close this gap: many safety- and security-relevant details are legitimately confidential and require expert interpretation. We define frontier AI auditing as rigorous third-party verification of frontier AI developers' safety and security claims, and evaluation of their systems and practices against relevant standards, based on deep, secure access to non-public information. To make rigor legible and comparable, we introduce AI Assurance Levels (AAL-1 to AAL-4), ranging from time-bounded system audits to continuous, deception-resilient verification.},
 }
 
+@misc{romeroalvarado2026capabilitiesaintneedmeasuring,
+      abbr          = {arXiv},
+      bibtex_show   = {true},
+      selected      = {false},
+      title         = {Capabilities Ain't All You Need: Measuring Propensities in {AI}},
+      author        = {Daniel Romero-Alvarado and Fernando Martínez-Plumed and Lorenzo Pacchiardi and Hugo Save and Siddhesh Milind Pawar and Behzad Mehrbakhsh and Pablo Antonio Moreno Casares and Ben Slater and Paolo Bova and Peter Romero and Zachary R. Tidler and Jonathan Prunty and Luning Sun and José Hernández-Orallo},
+      year          = {2026},
+      eprint        = {2602.18182},
+      archivePrefix = {arXiv},
+      primaryClass  = {cs.LG},
+      url           = {https://arxiv.org/abs/2602.18182},
+      html          = {https://arxiv.org/abs/2602.18182},
+      publisher     = {arXiv},
+      pdf           = {https://arxiv.org/pdf/2602.18182.pdf},
+      abstract      = {AI evaluation has primarily focused on measuring capabilities, with formal approaches inspired from Item Response Theory (IRT) being increasingly applied. Yet propensities---the tendencies of models to exhibit particular behaviours---play a central role in determining both performance and safety outcomes. However, traditional IRT describes a model's success on a task as a monotonic function of model capabilities and task demands, an approach unsuited to propensities, where both excess and deficiency can be problematic. Here, we introduce the first formal framework for measuring AI propensities by using a bilogistic formulation for model success, which attributes high success probability when the model's propensity is within an ``ideal band''. Further, we estimate the limits of the ideal band using LLMs equipped with newly developed task-agnostic rubrics. Applying our framework to six families of LLM models whose propensities are incited in either direction, we find that we can measure how much the propensity is shifted and what effect this has on the tasks. Critically, propensities estimated using one benchmark successfully predict behaviour on held-out tasks. Moreover, we obtain stronger predictive power when combining propensities and capabilities than either separately. More broadly, our framework showcases how rigorous propensity measurements can be conducted and how it yields gains over solely using capability evaluations to predict AI behaviour.},
+}
+
+@article{dubois2026sevensimplestepsloganalysis,
+      abbr          = {TechRxiv},
+      bibtex_show   = {true},
+      selected      = {true},
+      author        = {Magda Dubois and Ekin Zorer and Maia Hamin and Joe Skinner and Alexandra Souly and Jerome Wynne and Harry Coppock and Lucas Sato and Sayash Kapoor and Sunishchal Dev and Keno Juchems and Kimberly Mai and Timo Flesch and Lennart Luettgau and Charles Teague and Eric Patey and J. J. Allaire and Lorenzo Pacchiardi and José Hernández-Orallo and Cozmin Ududec},
+      title         = {Seven Simple Steps for Log Analysis in {AI} Systems},
+      journal       = {TechRxiv},
+      volume        = {2026},
+      number        = {0227},
+      year          = {2026},
+      doi           = {10.36227/techrxiv.177223089.95759468/v1},
+      url           = {https://www.techrxiv.org/doi/abs/10.36227/techrxiv.177223089.95759468/v1},
+      html          = {https://www.techrxiv.org/doi/abs/10.36227/techrxiv.177223089.95759468/v1},
+      pdf           = {https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.177223089.95759468/v1},
+      abstract      = {{AI} systems produce large volumes of logs as they interact with tools and users. Analysing these logs can help understand model capabilities, propensities, and behaviours, or assess whether an evaluation worked as intended. Researchers have started developing methods for log analysis, but a standardised approach is still missing. Here we suggest a pipeline based on current best practices. We illustrate it with concrete code examples in the Inspect Scout library, provide detailed guidance on each step, and highlight common pitfalls. Our framework provides researchers with a foundation for rigorous and reproducible log analysis.},
+}
+
 @inproceedings{
 pacchiardi2025a,
 abbr          = {NeurIPS
@@ -36,18 +70,15 @@ abstract={We propose a framework for categorising AI models as General-Purpose A
 
 
 @article{cencerrado2025noanswer,
-    abbr          = {arXiv},
+    abbr          = {ICLR workshop},
     bibtex_show   = {true},
     selected      = {false},
     title         = {{No Answer Needed: Predicting LLM Answer Accuracy from Question-Only Linear Probes}},
     author        = {Iván Vicente Moreno Cencerrado and Arnau Padrés Masdemont and Anton Gonzalvez Hawthorne and David Demitri Africa and Lorenzo Pacchiardi},
-    year          = {2025},
-    eprint        = {2509.10625},
-    archivePrefix = {arXiv},
-    primaryClass  = {cs.CL},
-    journal       = {arXiv preprint arXiv:2509.10625},
-    url           = {https://arxiv.org/abs/2509.10625},
-    html          = {https://arxiv.org/abs/2509.10625},
+    year          = {2026},
+    journal       = {ICLR 2026 Workshop on Predictable and Reliable AI},
+    url           = {https://openreview.net/forum?id=1QcY6LPcdQ},
+    html          = {https://openreview.net/forum?id=1QcY6LPcdQ},
     code          = {https://github.com/ivanvmoreno/correctness-model-internals},
 	abstract 	  = {Do large language models (LLMs) anticipate when they will answer correctly? To study this, we extract activations after a question is read but before any tokens are generated, and train linear probes to predict whether the model's forthcoming answer will be correct. Across three open-source model families ranging from 7 to 70 billion parameters, projections on this "in-advance correctness direction" trained on generic trivia questions predict success in distribution and on diverse out-of-distribution knowledge datasets, outperforming black-box baselines and verbalised predicted confidence. Predictive power saturates in intermediate layers, suggesting that self-assessment emerges mid-computation. Notably, generalisation falters on questions requiring mathematical reasoning. Moreover, for models responding "I don't know", doing so strongly correlates with the probe score, indicating that the same direction also captures confidence. By complementing previous results on truthfulness and other behaviours obtained with probes and sparse auto-encoders, our work contributes essential findings to elucidate LLM internals.}
 }
@@ -68,20 +99,20 @@ abstract={We propose a framework for categorising AI models as General-Purpose A
 
 
 @article{zhou2025generalscalesunlockai,
-    abbr={arXiv},
+    abbr={Nature},
     bibtex_show={true},
     selected={true},
     title={{General Scales Unlock AI Evaluation with Explanatory and Predictive Power}},
     author={Lexin Zhou and Lorenzo Pacchiardi and Fernando Martínez-Plumed and Katherine M. Collins and Yael Moros-Daval and Seraphina Zhang and Qinlin Zhao and Yitian Huang and Luning Sun and Jonathan E. Prunty and Zongqian Li and Pablo Sánchez-García and Kexin Jiang Chen and Pablo A. M. Casares and Jiyun Zu and John Burden and Behzad Mehrbakhsh and David Stillwell and Manuel Cebrian and Jindong Wang and Peter Henderson and Sherry Tongshuang Wu and Patrick C. Kyllonen and Lucy Cheke and Xing Xie and José Hernández-Orallo},
-    year={2025},
-    eprint={2503.06378},
-    archivePrefix={arXiv},
-    primaryClass={cs.AI},
-    journal={arXiv preprint arXiv:2503.06378},
+    year={2026},
+    journal={Nature},
+    volume={652},
+    pages={58-67},
     url={https://kinds-of-intelligence-cfi.github.io/ADELE/},
     html={https://kinds-of-intelligence-cfi.github.io/ADELE/},
+    pdf={https://www.nature.com/articles/s41586-026-10303-2.pdf},
     code={https://github.com/Kinds-of-Intelligence-CFI/ADeLe-AIEvaluation},
-    abstract={Ensuring safe and effective use of AI requires understanding and anticipating its performance on novel tasks, from advanced scientific challenges to transformed workplace activities. So far, benchmarking has guided progress in AI, but it has offered limited explanatory and predictive power for general-purpose AI systems, given the low transferability across diverse tasks. In this paper, we introduce general scales for AI evaluation that can explain what common AI benchmarks really measure, extract ability profiles of AI systems, and predict their performance for new task instances, in- and out-of-distribution. Our fully-automated methodology builds on 18 newly-crafted rubrics that place instance demands on general scales that do not saturate. Illustrated for 15 large language models and 63 tasks, high explanatory power is unleashed from inspecting the demand and ability profiles, bringing insights on the sensitivity and specificity exhibited by different benchmarks, and how knowledge, metacognition and reasoning are affected by model size, chain-of-thought and distillation. Surprisingly, high predictive power at the instance level becomes possible using these demand levels, providing superior estimates over black-box baseline predictors based on embeddings or finetuning, especially in out-of-distribution settings (new tasks and new benchmarks). The scales, rubrics, battery, techniques and results presented here represent a major step for AI evaluation, underpinning the reliable deployment of AI in the years ahead.}
+    abstract={Ensuring safe and effective use of artificial intelligence (AI) requires understanding and anticipating its performance on new tasks, from advanced scientific challenges to transformed workplace activities. So far, benchmarking has guided progress in AI but has offered limited explanatory and predictive power for general-purpose AI systems, attributed to limited transferability across specific tasks. Here we introduce general scales for AI evaluation that elicit demand profiles explaining what capabilities common AI benchmarks truly measure, extract ability profiles quantifying the general strengths and limits of AI systems and robustly predict AI performance for new task instances. Our fully automated methodology builds on 18 rubrics, capturing a broad range of cognitive and intellectual demands, which place different task instances on the same general scales, illustrated on 15 large language models (LLMs) and 63 tasks. Both the demand and the ability profiles on these scales bring new insights such as construct validity through benchmark sensitivity and specificity and explain conflicting claims about whether AI has reasoning capabilities. Ultimately, high predictive power at the instance level becomes possible using the general scales, providing superior estimates over strong black-box baseline predictors, especially in out-of-distribution settings (new tasks and benchmarks). The scales, rubrics, battery, techniques and results presented here constitute a solid foundation for a science of AI evaluation, underpinning the reliable deployment of AI in the years ahead.}
 }
 
 @article{pacchiardi2025predictaboardbenchmarkingllmscore,
