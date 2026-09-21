@@ -3,10 +3,16 @@ layout: page
 permalink: /talks/
 title: talks
 description: Selection of talks and seminars
-years: [2025, 2024, 2023, 2022, 2021, 2020]
+years: [2026, 2025, 2024, 2023, 2022, 2021, 2020]
 nav: true
 importance: 2
 ---
+
+<h2 class="year">{{2026}}</h2>
+
+- 2026/09/16: Invited seminar on [evaluation of continual learning AI systems](https://cl-eval.github.io/) @ **Google DeepMind (London)**.
+
+- 2026/08/06: Invited seminar on [evaluation of continual learning AI systems](https://cl-eval.github.io/) @ **US federal agencies working group on AI & Evaluation**. Invited by Lauren Damme, Director of Innovation in Evaluation & Research at the U.S. Department of Labor.
 
 <h2 class="year">{{2025}}</h2>
 
