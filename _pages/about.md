@@ -15,6 +15,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 *Assistant Research Professor, University of Cambridge*
+
 *Anonymous Feedback Form [here](https://forms.gle/4emy5114h5i3jKM67)*
 
 I am an Assistant Research Professor at the [Leverhulme Centre for the Future of Intelligence](http://lcfi.ac.uk/) at the University of Cambridge. I lead a research project (funded by [Open Philanthropy](https://www.openphilanthropy.org/)) on developing a benchmark for measuring the ability of LLMs to perform data science tasks. I am more broadly interested in [AI evaluation](https://arxiv.org/abs/2502.15620), particularly in [predictability](https://arxiv.org/abs/2502.14445) and [cognitive evaluation](https://arxiv.org/abs/2503.06378), and I closely collaborate with [Prof José Hernández-Orallo](http://josephorallo.webs.upv.es/) and [Prof Lucy Cheke](http://lcfi.ac.uk/people/lucy-cheke/). I contribute to the [AI evaluation newsletter](https://aievaluation.substack.com/). I was faculty on the first edition of the [International Programme on AI Evaluation](https://ai-evaluation.org/), teaching modules on benchmarking and predictive evaluation.
