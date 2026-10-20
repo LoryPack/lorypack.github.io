@@ -16,6 +16,8 @@ social: true  # includes social icons at the bottom of the page
 
 *Assistant Research Professor, University of Cambridge*
 
+*Research Scientist, Apart Research*
+
 *Anonymous Feedback Form [here](https://forms.gle/4emy5114h5i3jKM67)*
 
 I am an Assistant Research Professor at the [Leverhulme Centre for the Future of Intelligence](http://lcfi.ac.uk/) at the University of Cambridge and a Research Scientist at [Apart Research](https://apartresearch.com/). I  currently focus on using my technical expertise to support the enforcement of the EU AI Act: I sit on the [AI Act scientific panel](https://digital-strategy.ec.europa.eu/en/policies/ai-scientific-panel), a 60-expert body advising the EU AI Office on general-purpose AI model risks, classification, and methodology, and (with Apart) develop evaluations for harmful manipulation risks. 
